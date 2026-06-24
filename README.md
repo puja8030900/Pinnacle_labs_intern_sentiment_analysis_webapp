@@ -60,9 +60,6 @@ The project uses the **Sentiment140** dataset containing Twitter posts labeled w
 
 
 
-**POOJA BANBHATT**
-
-MCA (AI & Data Science)
 
 
 

@@ -35,24 +35,6 @@ The project performs text preprocessing by removing URLs, punctuation, numbers, 
 
 
 
-## 📂 Project Structure
-
-Sentiment_Analysis/
-│
-├── dataset/
-├── models/
-├── templates/
-│   └── index.html
-├── static/
-│   └── style.css
-├── app.py
-├── train_model.py
-├── predict.py
-├── requirements.txt
-├── README.md
-
-
-
 
 ## ⚙️ Machine Learning Workflow
 

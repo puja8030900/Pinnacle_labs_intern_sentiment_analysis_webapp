@@ -1,5 +1,5 @@
 # Pinnacle_labs_intern_sentiment_analysis_webapp
-# 😊 Sentiment Analysis Web Application
+#  Sentiment Analysis Web Application
 
 ## 📌 Project Overview
 
@@ -82,5 +82,5 @@ The project uses the **Sentiment140** dataset containing Twitter posts labeled w
 
 MCA (AI & Data Science)
 
-Machine Learning | Data Science | Python | NLP | Web Development
+
 

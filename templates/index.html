@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sentiment Analysis</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>😊 Sentiment Analysis Web App</h1>
+
+        <p>Enter any sentence or review to predict its sentiment.</p>
+
+        <form action="/predict" method="POST">
+
+            <textarea
+                name="message"
+                rows="7"
+                placeholder="Type your text here..."
+                required>{{ message if message else '' }}</textarea>
+
+            <br>
+
+            <button type="submit">Predict Sentiment</button>
+
+        </form>
+
+        {% if prediction %}
+
+        <div class="result">
+
+            <h2>Prediction</h2>
+
+            <h3>{{ prediction }}</h3>
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
+</body>
+
+</html>
